@@ -3,6 +3,7 @@ import requests
 REPO_OWNER = 'LayerZero-Labs'
 REPO_NAME = 'sybil-report'
 TOKEN_FROM_GITHUB = ''
+# https://github.com/settings/tokens
 
 headers = {
     'Authorization': f'Bearer {TOKEN_FROM_GITHUB}',
